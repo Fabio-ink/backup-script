@@ -1,6 +1,17 @@
 origin_dir=/home/vii/Documents/CodeProjects/serve-me
 backup_dir=/home/vii/bkp
 
+# Verificar se os diretorios de origem e backup existem
+if [ ! -d "$origin_dir" ]; then
+  echo "Origin folder not found"
+  exit 1
+fi
+
+if [ ! -d "$backup_dir" ]; then
+  echo "Backup folder not found"
+  exit 1
+fi
+
 # Nome do arquivo zipado, com a datahora atual
 timestamp=$(date +'%Y%m%d_%H%M%S')
 zip_file="$timestamp.zip"
