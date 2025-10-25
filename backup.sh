@@ -18,5 +18,7 @@ zip_file="$timestamp.zip"
 
 # Cria o arquivo .zip do diretório de origem
 echo "Creating zipped backup..."
-zip -r "$backup_dir/$zip_file" "$origin_dir"
+cd "$(dirname "$origin_dir")" || exit 1
+zip -r "$backup_dir/$zip_file" "$(basename "$origin_dir")"
+
 echo "DONE! Saved in $backup_dir/$zip_file"
