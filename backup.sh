@@ -1,5 +1,5 @@
 origin_dir=/home/vii/Documents/CodeProjects/serve-me
-backup_dir=/home/vii/bkp
+backup_dir=/home/vii/bkp_tests
 
 # Verificar se os diretorios de origem e backup existem
 if [ ! -d "$origin_dir" ]; then
