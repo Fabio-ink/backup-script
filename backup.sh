@@ -1,3 +1,5 @@
+#!/bin/bash
+
 origin_dir=/home/vii/Documents/CodeProjects/serve-me
 backup_dir=/home/vii/bkp_tests
 
