@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # O diretório de origem agora é o primeiro argumento ($1)
 origin_dir="$1"
 
