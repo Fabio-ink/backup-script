@@ -4,7 +4,7 @@ Este projeto contém um script de shell simples para criar um backup compactado 
 
 ## Descrição
 
-O script `backup.sh` usa o caminho de um diretório de origem como argumento e cria um arquivo `.zip` desse diretório. O arquivo é marcado com data e hora e salvo em um local de backup predefinido (`/home/fabio/bkp_tests`).
+O script `backup.sh` usa o caminho de um diretório de origem como argumento e cria um arquivo `.zip` desse diretório. O arquivo é marcado com data e hora e salvo em um local de backup predefinido (Exemplo: `/home/username/bkp`).
 
 ## Uso
 
