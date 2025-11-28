@@ -35,4 +35,4 @@ Para executar o script, você precisa fornecer o caminho para o diretório do qu
 ./backup.sh /home/fabio/documentos
 ```
 
-Este comando criará um arquivo zip como `documentos_20251110_103000.zip` dentro do diretório `/home/fabio/bkp_tests`.
+Este comando criará um arquivo zip como `documentos_20251110_103000.zip` dentro do diretório `/home/fabio/documentos`.
