@@ -4,7 +4,7 @@
 origin_dir="$1"
 
 # O diretório de backup permanece fixo no script
-backup_dir=/home/fabio/bkp_tests
+backup_dir=/home/vii/backups
 
 # Verificar se o parâmetro de origem foi fornecido
 if [ -z "$origin_dir" ]; then
@@ -18,6 +18,7 @@ if [ ! -d "$origin_dir" ]; then
   exit 1
 fi
 
+# Caso não encontre o backup_dir, ele cria automaticamente
 if [ ! -d "$backup_dir" ]; then
   echo "Backup folder not found. Creating $backup_dir..."
   mkdir -p "$backup_dir"
