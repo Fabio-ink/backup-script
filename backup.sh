@@ -8,7 +8,7 @@ backup_dir=/home/fabio/bkp_tests
 
 # Verificar se o parâmetro de origem foi fornecido
 if [ -z "$origin_dir" ]; then
-  echo "Uso: $0 <caminho_da_pasta_a_ser_copiada>"
+  echo "MISSING PARAMETER!!! Expected command: $0 <path_of_folder_to_be_copied>"
   exit 1
 fi
 
